@@ -1,3 +1,5 @@
+import sun.security.provider.ConfigFile;
+
 import java.awt.*;
 import java.lang.reflect.Array;
 import java.sql.SQLOutput;
@@ -197,6 +199,7 @@ public class Main {
 
         //chapter 3.7 challenge
 
+        /*
         Scanner in = new Scanner(System.in);
         String userInput;
         Dice d = new Dice();
@@ -221,11 +224,84 @@ public class Main {
 
 
 
+        */
 
 
 
+        //chapter 4.2
 
+        /*
+        BankAccount myBankAccount = new BankAccount(4141, 100);
+        //System.out.println(myBankAccount.bank_account);
 
+        myBankAccount.deposit(-60);
+        myBankAccount.withdraw(150);
+
+        myBankAccount.deposit(100);
+        myBankAccount.withdraw(200);
+        */
+
+        //chapter 4.3
+
+        /*
+        Insect insect = new Insect(5,6);
+        Spider spider = new Spider(13, true);
+        Cricket cricket = new Cricket(2,1.25);
+
+        insect.crawl();
+        insect.says();
+
+        spider.crawl();
+        spider.says();
+
+        cricket.crawl();
+        cricket.says();
+        cricket.jump();
+
+        if (spider instanceof Insect && spider instanceof Spider){
+            System.out.println("Spider is an insect and a spider");
+        }
+        */
+        //chapter 4.3
+
+        /*
+        Dog d = new Dog();
+        Cat2 c = new Cat2();
+
+        if ( c instanceof Pet){
+            c.play();
+        }
+        if(d instanceof Pet){
+            d.play();
+        }
+
+        Pet p;
+        Random rand = new Random();
+        int n = rand.nextInt(2);
+        if(n==0) {
+            p = new Dog();
+        }
+        else{
+           p= new Cat2();
+        }
+
+        p.play();
+        */
+
+        //chapter 4.5
+        /*
+        Answerable phone = () -> "Hello";
+
+        System.out.println(phone.answer());
+
+        Predicate isOdd = n -> n % 2 !=0;
+        System.out.println(isOdd.test(2));
+
+        Predicate isEven = n -> n % 2 == 0;
+        System.out.println(isEven.test(2));
+        */
 
     }
+
+
 }
