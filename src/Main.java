@@ -81,9 +81,35 @@ public class Main {
         System.out.println(myCarSpeed);
         */
 
+        //chapter 2.8
+        /*
+        String s = "dog";
+        String replacedF = s.replace("d","f");
+        System.out.println(replacedF);
+        */
+
+        //chapter 2.9 challenge
+        /*
+        Cat myCat = new Cat("Gavstriks",Color.GRAY, 6);
+
+        System.out.println(myCat.meow());
+
+
+        System.out.println("age of cat: " + myCat.age);
+
+        myCat.birthday();
+
+        System.out.println("new age of cat: " +myCat.age);
+
+        System.out.println("color of cat: " +myCat.color);
+        myCat.changeColor(Color.RED);
+        System.out.println("new color of cat: " + myCat.color);
+
+        */
+
+        //chapter 3.1 -> 3.2
+
         
-
-
 
 
 
