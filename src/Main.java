@@ -206,7 +206,7 @@ public class Main {
         while(true) {
 
             System.out.println("what do you want to do?");
-            userInput = in.next();
+            userInput = in.nextLine();
 
             if (userInput.contains("dice")) {
 
@@ -222,9 +222,9 @@ public class Main {
 
         }
 
-
-
         */
+
+
 
 
 
